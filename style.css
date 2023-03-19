@@ -23,7 +23,7 @@ a
 		display: block;
 		margin: 0px;
 		color:#F0C9B3;
-		list-style-image: url(../images/caret.png);
+		list-style-image: url(caret.png);
 		padding: 10px 15px;
 }
 ul#list li
