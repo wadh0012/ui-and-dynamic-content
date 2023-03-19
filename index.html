@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Shopping List Assignment</title>
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/font-awesome.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id="widget">
+		<!-- navbar close -->
+		<div class="masthead">
+			<div class="mastheadtext">
+				<p>Easy, Fresh & Convenient</p>
+				<h1>Stock Up on<br> Daily Basic<br> Essentials</h1>
+				<h2>Big Savings</h2>	
+				<p>HurryUp</p>	
+			</div>
+			<div class="mastheadimg">
+				<img src="images/cart.png" align="right">
+			</div>
+		</div>
+		<!--header close  -->
+		<section id="main-content">
+			<div class="container">
+				
+				<form method="post" id="submitform" class="subform">
+					
+					<input type="text" name="name" id="itm" placeholder="your item here...">
+					<button id="btn" onclick="additem()" type="button">Add item</button>
+				</form>
+
+
+				<!-- list item for storage-->
+				<ul id="list">
+						
+				</ul>
+
+
+				<!-- div for error msg -->
+				<p class="errormsg" id="err"></p>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="social">
+					<a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/?lang=en"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+		
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
